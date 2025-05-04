@@ -11,7 +11,8 @@
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/server.js",
       "env": {
-        "NODE_ENV": "development"
+        "NODE_ENV": "development",
+        "EXAMPLE": "LONG_POLLING" // SHORT_POLLING, LONG_POLLING
       },
       "runtimeExecutable": "/Users/naveen/.nvm/versions/node/v18.20.1/bin/node"
     }
